@@ -15,12 +15,41 @@ proxies:
   sni: jgw2.gaox.ml
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F3 UN 3 VMS"
+  type: vmess
+  server: c6br44-8080.csb.app
+  port: 443
+  cipher: auto
+  uuid: 465b248d-59c3-4a30-a6e7-885f3ccc42fb
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /vms
+    headers:
+      host: c6br44-8080.csb.app
+- name: "\U0001F1FA\U0001F1F3 UN 4 TJN"
+  type: trojan
+  server: preservation-hood-stands-consult.trycloudflare.com
+  port: 443
+  udp: true
+  password: db5b4014-d2da-11ed-afa1-0242ac120002
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /mio
+    headers:
+      host: preservation-hood-stands-consult.trycloudflare.com
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 4 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -29,5 +58,7 @@ proxy-groups:
   - automatic
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 4 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
