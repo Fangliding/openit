@@ -256,7 +256,7 @@ proxies:
   password: ca7febc2-bb45-4e6d-810e-ab0af6009c4e
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 26 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 26 VMS"
   type: vmess
   server: scaleway.696960.xyz
   port: 443
@@ -533,6 +533,12 @@ proxies:
     path: /cutino
     headers:
       host: chat.samrg.buzz
+- name: "\U0001F1E8\U0001F1FF CZ 50 SSS"
+  type: ss
+  server: 194.87.169.250
+  port: 30513
+  password: X3rdQzAST9
+  cipher: aes-256-gcm
 proxy-groups:
 - name: automatic
   type: url-test
@@ -562,7 +568,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 23 VMS"
   - "\U0001F1FA\U0001F1F8 US 24 VMS"
   - "\U0001F1F9\U0001F1FC TW 25 TJN"
-  - "\U0001F1FA\U0001F1F8 US 26 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 26 VMS"
   - "\U0001F1FA\U0001F1F8 US 27 VMS"
   - "\U0001F1E8\U0001F1FE CY 28 VMS"
   - "\U0001F1FA\U0001F1F3 UN 29 VMS"
@@ -586,6 +592,7 @@ proxy-groups:
   - "\U0001F1E9\U0001F1EA DE 47 SSS"
   - "\U0001F1FA\U0001F1F8 US 48 VMS"
   - "\U0001F1FA\U0001F1F8 US 49 VMS"
+  - "\U0001F1E8\U0001F1FF CZ 50 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -617,7 +624,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 23 VMS"
   - "\U0001F1FA\U0001F1F8 US 24 VMS"
   - "\U0001F1F9\U0001F1FC TW 25 TJN"
-  - "\U0001F1FA\U0001F1F8 US 26 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 26 VMS"
   - "\U0001F1FA\U0001F1F8 US 27 VMS"
   - "\U0001F1E8\U0001F1FE CY 28 VMS"
   - "\U0001F1FA\U0001F1F3 UN 29 VMS"
@@ -641,5 +648,6 @@ proxy-groups:
   - "\U0001F1E9\U0001F1EA DE 47 SSS"
   - "\U0001F1FA\U0001F1F8 US 48 VMS"
   - "\U0001F1FA\U0001F1F8 US 49 VMS"
+  - "\U0001F1E8\U0001F1FF CZ 50 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
