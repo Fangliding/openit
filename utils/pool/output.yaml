@@ -15,12 +15,27 @@ proxies:
   sni: jgw2.gaox.ml
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1ED\U0001F1F0 HK 3 VMS"
+  type: vmess
+  server: cdncf.scyu.app
+  port: 80
+  cipher: auto
+  uuid: c07a7268-6b25-4952-be6d-e9fb3beacedc
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      host: ssrsub.v01.ssrsub.com
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 3 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -29,5 +44,6 @@ proxy-groups:
   - automatic
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 3 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
