@@ -348,11 +348,7 @@ proxies:
   protocol: auth_aes128_md5
   obfs-param: ajax.microsoft.com
   protocol-param: 198964:5iYBLOPDvU
-- name: "\U0001F1ED\U0001F1F0 HK 42 HTT"
-  type: http
-  server: www.chrome-helper.cc
-  port: 21830
-- name: "\U0001F1E8\U0001F1F3 CN 43 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 42 VMS"
   type: vmess
   server: shck8bq.olb8qsg.top
   port: 37295
@@ -366,7 +362,7 @@ proxies:
     path: /
     headers:
       host: '{"Host":"gw.alicdn.com"}'
-- name: "\U0001F1E8\U0001F1F3 CN 44 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 43 VMS"
   type: vmess
   server: shck8bq.olb8qsg.top
   port: 23246
@@ -380,7 +376,7 @@ proxies:
     path: /
     headers:
       host: '{"Host":"gw.alicdn.com"}'
-- name: "\U0001F1E8\U0001F1F3 CN 45 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 44 VMS"
   type: vmess
   server: shck8bq.olb8qsg.top
   port: 47104
@@ -394,7 +390,7 @@ proxies:
     path: /
     headers:
       host: '{"Host":"gw.alicdn.com"}'
-- name: "\U0001F1FA\U0001F1F8 US 46 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 45 VMS"
   type: vmess
   server: 142.4.112.28
   port: 51091
@@ -404,7 +400,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 47 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 46 VMS"
   type: vmess
   server: 142.4.126.43
   port: 44392
@@ -414,7 +410,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 48 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 47 VMS"
   type: vmess
   server: 107.167.29.235
   port: 46321
@@ -424,6 +420,10 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
+- name: "\U0001F1ED\U0001F1F0 HK 48 HTT"
+  type: http
+  server: www.chrome-helper.cc
+  port: 21830
 proxy-groups:
 - name: automatic
   type: url-test
@@ -469,13 +469,13 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 39 SSR"
   - "\U0001F1E8\U0001F1F3 CN 40 SSR"
   - "\U0001F1E8\U0001F1F3 CN 41 SSR"
-  - "\U0001F1ED\U0001F1F0 HK 42 HTT"
+  - "\U0001F1E8\U0001F1F3 CN 42 VMS"
   - "\U0001F1E8\U0001F1F3 CN 43 VMS"
   - "\U0001F1E8\U0001F1F3 CN 44 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 45 VMS"
+  - "\U0001F1FA\U0001F1F8 US 45 VMS"
   - "\U0001F1FA\U0001F1F8 US 46 VMS"
   - "\U0001F1FA\U0001F1F8 US 47 VMS"
-  - "\U0001F1FA\U0001F1F8 US 48 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 48 HTT"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -523,12 +523,12 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 39 SSR"
   - "\U0001F1E8\U0001F1F3 CN 40 SSR"
   - "\U0001F1E8\U0001F1F3 CN 41 SSR"
-  - "\U0001F1ED\U0001F1F0 HK 42 HTT"
+  - "\U0001F1E8\U0001F1F3 CN 42 VMS"
   - "\U0001F1E8\U0001F1F3 CN 43 VMS"
   - "\U0001F1E8\U0001F1F3 CN 44 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 45 VMS"
+  - "\U0001F1FA\U0001F1F8 US 45 VMS"
   - "\U0001F1FA\U0001F1F8 US 46 VMS"
   - "\U0001F1FA\U0001F1F8 US 47 VMS"
-  - "\U0001F1FA\U0001F1F8 US 48 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 48 HTT"
 rules:
 - "MATCH,\U0001F310 Proxy"
