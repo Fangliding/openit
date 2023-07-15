@@ -600,6 +600,88 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
+- type: vmess
+  name: "\U0001F1ED\U0001F1F0 HK 58 VMS"
+  server: 8.210.154.114
+  port: 40447
+  uuid: da8c9ac2-39de-4bed-ee9f-4e4340ade47d
+  alterId: '0'
+  cipher: auto
+- type: vmess
+  name: "\U0001F1ED\U0001F1F0 HK 59 VMS"
+  server: 156.245.8.83
+  port: 48123
+  uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7
+  alterId: '64'
+  cipher: auto
+  network: none
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 60 VMS"
+  server: 172.247.67.45
+  port: 50035
+  uuid: 2278efe4-ad0c-47ce-9480-068608368d76
+  alterId: '64'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 61 VMS"
+  server: 156.225.67.131
+  port: 50884
+  uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54
+  alterId: '64'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 62 VMS"
+  server: 198.2.218.206
+  port: 51203
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 63 VMS"
+  server: 142.4.126.69
+  port: 52212
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: '64'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 64 VMS"
+  server: 45.199.138.145
+  port: 42929
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  alterId: '64'
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: "\U0001F1FA\U0001F1F3 UN 65 VMS"
+  ws-opts:
+    path: /pq/usfh2?ed=2048
+    headers:
+      host: usfh2.pqjc.buzz
+  server: zfc.windowsupdate1.com
+  port: 443
+  uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 66 VMS"
+  server: 156.225.67.132
+  port: 50884
+  uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54
+  alterId: '64'
+  cipher: auto
+  network: tcp
+- type: ss
+  name: "\U0001F1FA\U0001F1F8 US 67 SSS"
+  server: 38.121.43.71
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
 proxy-groups:
 - name: automatic
   type: url-test
@@ -661,6 +743,16 @@ proxy-groups:
   - "\U0001F1EE\U0001F1F7 IR 55 VMS"
   - "\U0001F1EE\U0001F1F7 IR 56 VMS"
   - "\U0001F1EE\U0001F1F7 IR 57 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 58 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 59 VMS"
+  - "\U0001F1FA\U0001F1F8 US 60 VMS"
+  - "\U0001F1FA\U0001F1F8 US 61 VMS"
+  - "\U0001F1FA\U0001F1F8 US 62 VMS"
+  - "\U0001F1FA\U0001F1F8 US 63 VMS"
+  - "\U0001F1FA\U0001F1F8 US 64 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 65 VMS"
+  - "\U0001F1FA\U0001F1F8 US 66 VMS"
+  - "\U0001F1FA\U0001F1F8 US 67 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -724,5 +816,15 @@ proxy-groups:
   - "\U0001F1EE\U0001F1F7 IR 55 VMS"
   - "\U0001F1EE\U0001F1F7 IR 56 VMS"
   - "\U0001F1EE\U0001F1F7 IR 57 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 58 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 59 VMS"
+  - "\U0001F1FA\U0001F1F8 US 60 VMS"
+  - "\U0001F1FA\U0001F1F8 US 61 VMS"
+  - "\U0001F1FA\U0001F1F8 US 62 VMS"
+  - "\U0001F1FA\U0001F1F8 US 63 VMS"
+  - "\U0001F1FA\U0001F1F8 US 64 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 65 VMS"
+  - "\U0001F1FA\U0001F1F8 US 66 VMS"
+  - "\U0001F1FA\U0001F1F8 US 67 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
