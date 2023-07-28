@@ -434,6 +434,127 @@ proxies:
     path: /qwer01
     headers:
       host: ecc.vtcss.top
+- name: "\U0001F1EF\U0001F1F5 JP 37 TJN"
+  type: trojan
+  server: pqawsjp2.aiopen.cfd
+  port: 443
+  udp: true
+  password: f0366e33-84c9-4a20-ad40-4f1e2c230c36
+  sni: pqawsjp2.aiopen.cfd
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 38 SSR"
+  type: ssr
+  server: 223.113.136.122
+  port: 33015
+  password: zztw9jk7gu
+  cipher: chacha20-ietf
+  obfs: http_simple
+  protocol: auth_aes128_sha1
+  obfs-param: e5ab08366.microsoft.com
+  protocol-param: 8366:V35GbB
+  group: SSRProvider
+- name: "\U0001F1FA\U0001F1F8 US 39 VMS"
+  type: vmess
+  server: 140.99.77.12
+  port: 54774
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 40 VMS"
+  type: vmess
+  server: 64.32.24.213
+  port: 48659
+  cipher: auto
+  uuid: cff9d860-7330-4ee1-b072-7142ddf1571d
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E9\U0001F1EA DE 41 VMS"
+  type: vmess
+  server: 130.162.47.123
+  port: 6854
+  cipher: auto
+  uuid: b5f7e932-f730-4ad2-b425-40977b9db332
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /zBLPou
+- name: "\U0001F1FA\U0001F1F8 US 42 VMS"
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: 80
+  cipher: auto
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      host: us.ilovescp.com
+- name: "\U0001F1FA\U0001F1F3 UN 43 VMS"
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: 80
+  cipher: auto
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      host: ca.ilovescp.com
+- name: "\U0001F1FA\U0001F1F8 US 44 VMS"
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: 80
+  cipher: auto
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      host: lv3.sharecentrepro.org
+- name: "\U0001F1FA\U0001F1F8 US 45 VMS"
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: 80
+  cipher: auto
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      host: dp1.scproxy.top
+- name: "\U0001F1FA\U0001F1F8 US 46 VMS"
+  type: vmess
+  server: cf-lt.sharecentre.online
+  port: 80
+  cipher: auto
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      host: dp4.ilovescp.com
 proxy-groups:
 - name: automatic
   type: url-test
@@ -474,6 +595,16 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 34 VMS"
   - "\U0001F1FA\U0001F1F8 US 35 VMS"
   - "\U0001F1EB\U0001F1F7 FR 36 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 37 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 38 SSR"
+  - "\U0001F1FA\U0001F1F8 US 39 VMS"
+  - "\U0001F1FA\U0001F1F8 US 40 VMS"
+  - "\U0001F1E9\U0001F1EA DE 41 VMS"
+  - "\U0001F1FA\U0001F1F8 US 42 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 43 VMS"
+  - "\U0001F1FA\U0001F1F8 US 44 VMS"
+  - "\U0001F1FA\U0001F1F8 US 45 VMS"
+  - "\U0001F1FA\U0001F1F8 US 46 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -516,5 +647,15 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 34 VMS"
   - "\U0001F1FA\U0001F1F8 US 35 VMS"
   - "\U0001F1EB\U0001F1F7 FR 36 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 37 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 38 SSR"
+  - "\U0001F1FA\U0001F1F8 US 39 VMS"
+  - "\U0001F1FA\U0001F1F8 US 40 VMS"
+  - "\U0001F1E9\U0001F1EA DE 41 VMS"
+  - "\U0001F1FA\U0001F1F8 US 42 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 43 VMS"
+  - "\U0001F1FA\U0001F1F8 US 44 VMS"
+  - "\U0001F1FA\U0001F1F8 US 45 VMS"
+  - "\U0001F1FA\U0001F1F8 US 46 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
