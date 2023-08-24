@@ -21,7 +21,7 @@ proxies:
   port: 31659
   password: a863473a-78be-403b-a69e-addee3fc6e28
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1F1\U0001F1F9 LT 4 TJN"
+- name: "\U0001F1F3\U0001F1F1 NL 4 TJN"
   type: trojan
   server: cnamemc1.cdncisco3.co
   port: 443
@@ -46,7 +46,7 @@ proxies:
     path: /shirker
     headers:
       host: dp4.ilovescp.com
-- name: "\U0001F1FA\U0001F1F3 UN 6 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 6 TJN"
   type: trojan
   server: cnamemc.cdncisco.org
   port: 443
@@ -107,6 +107,108 @@ proxies:
     path: /blue
     headers:
       host: ecc.vtcss.top
+- name: "\U0001F1E8\U0001F1F3 CN 12 TJN"
+  type: trojan
+  server: v01.gutingting.com
+  port: 30050
+  udp: true
+  password: 26c1bbd2-c4f5-4937-840a-769f022f9665
+  sni: v2sg02.fuqiangren.com
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 13 SSS"
+  type: ss
+  server: v3-hk.kunlun-sd.com
+  port: 6606
+  password: 2d2265d0-d3bb-43c2-be70-4fbc68b0dfb4
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 14 SSS"
+  type: ss
+  server: v3-sg.kunlun-sd.com
+  port: 6611
+  password: 2d2265d0-d3bb-43c2-be70-4fbc68b0dfb4
+  cipher: aes-128-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 15 VMS"
+  type: vmess
+  server: yes.iamagoodman.net
+  port: 16648
+  cipher: auto
+  uuid: 224c91ee-7e18-4f1e-86bb-c1836f218c95
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: yes.iamagoodman.net
+- name: "\U0001F1E8\U0001F1F3 CN 16 VMS"
+  type: vmess
+  server: 120.226.50.91
+  port: 47009
+  cipher: auto
+  uuid: 83a424d8-4bcb-4cee-b016-2c8f1db4a921
+  alterId: 64
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 17 VMS"
+  type: vmess
+  server: v01.gutingting.com
+  port: 30016
+  cipher: auto
+  uuid: 26c1bbd2-c4f5-4937-840a-769f022f9665
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aceamedv
+    headers:
+      host: v01.gutingting.com
+- name: "\U0001F1E8\U0001F1F3 CN 18 TJN"
+  type: trojan
+  server: v01.gutingting.com
+  port: 20226
+  udp: true
+  password: 26c1bbd2-c4f5-4937-840a-769f022f9665
+  sni: v2uk01.fuqiangren.com
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 19 TJN"
+  type: trojan
+  server: v02.gutingting.com
+  port: 20227
+  udp: true
+  password: 26c1bbd2-c4f5-4937-840a-769f022f9665
+  sni: v2uk01.fuqiangren.com
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 20 VMS"
+  type: vmess
+  server: v02.gutingting.com
+  port: 30025
+  cipher: auto
+  uuid: 26c1bbd2-c4f5-4937-840a-769f022f9665
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aceamedv
+    headers:
+      host: v02.gutingting.com
+- name: "\U0001F1E8\U0001F1F3 CN 21 VMS"
+  type: vmess
+  server: v02.gutingting.com
+  port: 30041
+  cipher: auto
+  uuid: 26c1bbd2-c4f5-4937-840a-769f022f9665
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aceamedv
+    headers:
+      host: v02.gutingting.com
 proxy-groups:
 - name: automatic
   type: url-test
@@ -114,14 +216,24 @@ proxy-groups:
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 SSS"
-  - "\U0001F1F1\U0001F1F9 LT 4 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 4 TJN"
   - "\U0001F1FA\U0001F1F8 US 5 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 6 TJN"
+  - "\U0001F1FA\U0001F1F8 US 6 TJN"
   - "\U0001F1F0\U0001F1F7 KR 7 SSS"
   - "\U0001F1FA\U0001F1F8 US 8 VMS"
   - "\U0001F1FA\U0001F1F8 US 9 VMS"
   - "\U0001F1F0\U0001F1F7 KR 10 SSS"
   - "\U0001F1ED\U0001F1F0 HK 11 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 12 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 13 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 14 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 15 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 16 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 17 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 18 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 19 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 20 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 21 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -131,13 +243,23 @@ proxy-groups:
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
   - "\U0001F1E8\U0001F1F3 CN 3 SSS"
-  - "\U0001F1F1\U0001F1F9 LT 4 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 4 TJN"
   - "\U0001F1FA\U0001F1F8 US 5 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 6 TJN"
+  - "\U0001F1FA\U0001F1F8 US 6 TJN"
   - "\U0001F1F0\U0001F1F7 KR 7 SSS"
   - "\U0001F1FA\U0001F1F8 US 8 VMS"
   - "\U0001F1FA\U0001F1F8 US 9 VMS"
   - "\U0001F1F0\U0001F1F7 KR 10 SSS"
   - "\U0001F1ED\U0001F1F0 HK 11 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 12 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 13 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 14 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 15 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 16 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 17 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 18 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 19 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 20 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 21 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
