@@ -353,13 +353,7 @@ proxies:
     path: /
     headers:
       host: tms.dingtalk.com
-- name: "\U0001F1F0\U0001F1F7 KR 36 SSS"
-  type: ss
-  server: 3.36.97.84
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-- name: "\U0001F1ED\U0001F1F0 HK 37 SSS"
+- name: "\U0001F1ED\U0001F1F0 HK 36 SSS"
   type: ss
   server: 8.210.112.68
   port: 443
@@ -369,7 +363,7 @@ proxies:
   plugin-opts:
     mode: websocket
     mux: false
-- name: "\U0001F1FA\U0001F1F8 US 38 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 37 VMS"
   type: vmess
   server: 172.67.149.81
   port: 80
@@ -383,6 +377,12 @@ proxies:
     path: /
     headers:
       host: sdygarm.e5outllok.me
+- name: "\U0001F1F0\U0001F1F7 KR 38 SSS"
+  type: ss
+  server: 3.36.97.84
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
 proxy-groups:
 - name: automatic
   type: url-test
@@ -422,9 +422,9 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 33 VMS"
   - "\U0001F1FA\U0001F1F3 UN 34 VMS"
   - "\U0001F1ED\U0001F1F0 HK 35 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 36 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 37 SSS"
-  - "\U0001F1FA\U0001F1F8 US 38 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 36 SSS"
+  - "\U0001F1FA\U0001F1F8 US 37 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 38 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -466,8 +466,8 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 33 VMS"
   - "\U0001F1FA\U0001F1F3 UN 34 VMS"
   - "\U0001F1ED\U0001F1F0 HK 35 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 36 SSS"
-  - "\U0001F1ED\U0001F1F0 HK 37 SSS"
-  - "\U0001F1FA\U0001F1F8 US 38 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 36 SSS"
+  - "\U0001F1FA\U0001F1F8 US 37 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 38 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
