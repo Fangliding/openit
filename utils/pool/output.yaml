@@ -70,7 +70,19 @@ proxies:
   port: 443
   password: asdKkaskJKfnsa
   cipher: aes-256-cfb
-- name: "\U0001F1F0\U0001F1F7 KR 11 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 11 VMS"
+  type: vmess
+  server: 45.199.138.222
+  port: 30000
+  cipher: auto
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1696251693048
+- name: "\U0001F1F0\U0001F1F7 KR 12 VMS"
   type: vmess
   server: 130.162.154.209
   port: 443
@@ -84,18 +96,6 @@ proxies:
     path: /ophelia.mom:443/linkvws
     headers:
       host: cf.tonyluk.link
-- name: "\U0001F1FA\U0001F1F8 US 12 VMS"
-  type: vmess
-  server: 45.199.138.222
-  port: 30000
-  cipher: auto
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-  alterId: 64
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /path/1696251693048
 - name: "\U0001F1E8\U0001F1F3 CN 13 VMS"
   type: vmess
   server: cdn.node.user-sub.pddns-usersdk.com
@@ -1474,8 +1474,8 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 8 SK5"
   - "\U0001F1E6\U0001F1FA AU 9 SK5"
   - "\U0001F1EB\U0001F1F7 FR 10 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 11 VMS"
-  - "\U0001F1FA\U0001F1F8 US 12 VMS"
+  - "\U0001F1FA\U0001F1F8 US 11 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 12 VMS"
   - "\U0001F1E8\U0001F1F3 CN 13 VMS"
   - "\U0001F1E8\U0001F1F3 CN 14 VMS"
   - "\U0001F1E8\U0001F1F3 CN 15 VMS"
@@ -1624,8 +1624,8 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 8 SK5"
   - "\U0001F1E6\U0001F1FA AU 9 SK5"
   - "\U0001F1EB\U0001F1F7 FR 10 SSS"
-  - "\U0001F1F0\U0001F1F7 KR 11 VMS"
-  - "\U0001F1FA\U0001F1F8 US 12 VMS"
+  - "\U0001F1FA\U0001F1F8 US 11 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 12 VMS"
   - "\U0001F1E8\U0001F1F3 CN 13 VMS"
   - "\U0001F1E8\U0001F1F3 CN 14 VMS"
   - "\U0001F1E8\U0001F1F3 CN 15 VMS"
