@@ -15,13 +15,22 @@ proxies:
   sni: jgw2.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 3 SSS"
+- name: "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  type: trojan
+  server: 183.213.200.208
+  port: 28157
+  udp: true
+  password: M83a100a
+  sni: www.icloud.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 4 SSS"
   type: ss
   server: hk.shawbrothersstudio.com
   port: 19921
   password: r1Rivb0NOPyab8gI828uG7
   cipher: chacha20-ietf-poly1305
-- name: "\U0001F1E8\U0001F1F3 CN 4 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 5 TJN"
   type: trojan
   server: 183.213.200.208
   port: 10443
@@ -30,7 +39,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 5 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 6 TJN"
   type: trojan
   server: 183.213.200.225
   port: 10443
@@ -39,7 +48,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 6 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 7 TJN"
   type: trojan
   server: 36.158.249.70
   port: 15601
@@ -48,7 +57,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 7 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 8 TJN"
   type: trojan
   server: 183.213.200.226
   port: 29161
@@ -57,7 +66,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 8 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 9 TJN"
   type: trojan
   server: 183.213.200.205
   port: 10443
@@ -66,18 +75,9 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 9 TJN"
-  type: trojan
-  server: 183.213.200.199
-  port: 32150
-  udp: true
-  password: o53RruPksU
-  sni: www.icloud.com
-  skip-cert-verify: true
-  network: tcp
 - name: "\U0001F1E8\U0001F1F3 CN 10 TJN"
   type: trojan
-  server: 36.158.249.70
+  server: 183.213.200.199
   port: 32150
   udp: true
   password: o53RruPksU
@@ -87,7 +87,7 @@ proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 11 TJN"
   type: trojan
   server: 36.158.249.70
-  port: 16138
+  port: 32150
   udp: true
   password: o53RruPksU
   sni: www.icloud.com
@@ -95,8 +95,8 @@ proxies:
   network: tcp
 - name: "\U0001F1E8\U0001F1F3 CN 12 TJN"
   type: trojan
-  server: 36.158.205.217
-  port: 16133
+  server: 36.158.249.70
+  port: 16138
   udp: true
   password: o53RruPksU
   sni: www.icloud.com
@@ -105,13 +105,22 @@ proxies:
 - name: "\U0001F1E8\U0001F1F3 CN 13 TJN"
   type: trojan
   server: 36.158.205.217
-  port: 31006
+  port: 16133
   udp: true
   password: o53RruPksU
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
 - name: "\U0001F1E8\U0001F1F3 CN 14 TJN"
+  type: trojan
+  server: 36.158.205.217
+  port: 31006
+  udp: true
+  password: o53RruPksU
+  sni: www.icloud.com
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 15 TJN"
   type: trojan
   server: 36.158.249.70
   port: 27850
@@ -120,7 +129,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 15 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 16 TJN"
   type: trojan
   server: 36.158.205.217
   port: 27381
@@ -129,7 +138,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 16 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 17 TJN"
   type: trojan
   server: 36.158.249.70
   port: 26324
@@ -138,7 +147,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 17 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 18 TJN"
   type: trojan
   server: 36.158.249.70
   port: 30260
@@ -147,7 +156,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 18 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 19 TJN"
   type: trojan
   server: 36.158.249.70
   port: 24300
@@ -156,7 +165,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 19 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 20 TJN"
   type: trojan
   server: 36.158.205.217
   port: 25334
@@ -165,7 +174,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 20 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 21 TJN"
   type: trojan
   server: 36.158.249.70
   port: 27114
@@ -174,7 +183,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 21 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 22 TJN"
   type: trojan
   server: 223.95.40.69
   port: 30266
@@ -183,7 +192,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 22 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 23 TJN"
   type: trojan
   server: 223.95.40.69
   port: 31002
@@ -192,7 +201,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 23 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 24 TJN"
   type: trojan
   server: 36.158.205.217
   port: 25333
@@ -201,7 +210,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 24 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 25 TJN"
   type: trojan
   server: 36.158.249.70
   port: 26182
@@ -210,7 +219,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 25 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 26 TJN"
   type: trojan
   server: 183.232.170.62
   port: 21103
@@ -219,7 +228,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 26 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 27 TJN"
   type: trojan
   server: 36.158.249.70
   port: 14761
@@ -228,7 +237,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 27 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 28 TJN"
   type: trojan
   server: 223.95.40.69
   port: 35490
@@ -237,7 +246,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 28 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 29 TJN"
   type: trojan
   server: 36.158.205.217
   port: 26723
@@ -246,7 +255,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 29 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 30 TJN"
   type: trojan
   server: 183.213.200.207
   port: 31003
@@ -255,7 +264,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 30 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 31 TJN"
   type: trojan
   server: 36.158.249.70
   port: 16136
@@ -264,7 +273,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 31 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 32 TJN"
   type: trojan
   server: 36.158.205.217
   port: 29388
@@ -273,7 +282,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 32 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 33 TJN"
   type: trojan
   server: 36.158.249.70
   port: 16114
@@ -282,7 +291,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 33 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 34 TJN"
   type: trojan
   server: 36.158.249.70
   port: 14912
@@ -291,7 +300,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 34 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 35 TJN"
   type: trojan
   server: 36.158.205.217
   port: 14912
@@ -300,7 +309,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 35 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 36 TJN"
   type: trojan
   server: 183.232.170.62
   port: 27852
@@ -309,7 +318,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 36 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 37 TJN"
   type: trojan
   server: 146.190.170.190
   port: 11116
@@ -318,7 +327,7 @@ proxies:
   sni: v.qq.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 37 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 38 TJN"
   type: trojan
   server: 137.184.185.178
   port: 11111
@@ -327,7 +336,7 @@ proxies:
   sni: v.qq.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 38 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 39 TJN"
   type: trojan
   server: 183.232.170.62
   port: 21117
@@ -336,7 +345,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 39 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 40 TJN"
   type: trojan
   server: 223.95.40.69
   port: 43187
@@ -345,7 +354,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 40 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 41 TJN"
   type: trojan
   server: 183.213.200.199
   port: 19817
@@ -354,7 +363,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 41 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 42 TJN"
   type: trojan
   server: 183.213.200.143
   port: 31008
@@ -363,7 +372,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 42 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 43 TJN"
   type: trojan
   server: 36.158.205.217
   port: 32011
@@ -372,7 +381,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 43 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 44 TJN"
   type: trojan
   server: 183.232.170.62
   port: 12385
@@ -381,7 +390,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 44 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 45 TJN"
   type: trojan
   server: 223.95.40.69
   port: 31010
@@ -390,7 +399,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 45 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 46 TJN"
   type: trojan
   server: 223.95.40.69
   port: 30282
@@ -399,7 +408,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 46 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 47 TJN"
   type: trojan
   server: 183.213.200.143
   port: 31009
@@ -408,7 +417,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 47 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 48 TJN"
   type: trojan
   server: 183.213.200.143
   port: 30183
@@ -417,7 +426,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1E6 CA 48 TJN"
+- name: "\U0001F1E8\U0001F1E6 CA 49 TJN"
   type: trojan
   server: 146.19.106.162
   port: 33852
@@ -426,7 +435,7 @@ proxies:
   sni: v.qq.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 49 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 50 TJN"
   type: trojan
   server: 223.95.40.69
   port: 21215
@@ -435,7 +444,7 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 50 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 51 TJN"
   type: trojan
   server: 183.213.200.225
   port: 28154
@@ -444,21 +453,12 @@ proxies:
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 51 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 52 TJN"
   type: trojan
   server: 183.213.200.225
   port: 28155
   udp: true
   password: M8ec5afa
-  sni: www.icloud.com
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 52 TJN"
-  type: trojan
-  server: 183.213.200.208
-  port: 28157
-  udp: true
-  password: M83a100a
   sni: www.icloud.com
   skip-cert-verify: true
   network: tcp
@@ -477,8 +477,8 @@ proxy-groups:
   proxies:
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 3 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 4 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
   - "\U0001F1E8\U0001F1F3 CN 5 TJN"
   - "\U0001F1E8\U0001F1F3 CN 6 TJN"
   - "\U0001F1E8\U0001F1F3 CN 7 TJN"
@@ -510,9 +510,9 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 33 TJN"
   - "\U0001F1E8\U0001F1F3 CN 34 TJN"
   - "\U0001F1E8\U0001F1F3 CN 35 TJN"
-  - "\U0001F1FA\U0001F1F8 US 36 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 36 TJN"
   - "\U0001F1FA\U0001F1F8 US 37 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 38 TJN"
+  - "\U0001F1FA\U0001F1F8 US 38 TJN"
   - "\U0001F1E8\U0001F1F3 CN 39 TJN"
   - "\U0001F1E8\U0001F1F3 CN 40 TJN"
   - "\U0001F1E8\U0001F1F3 CN 41 TJN"
@@ -522,8 +522,8 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 45 TJN"
   - "\U0001F1E8\U0001F1F3 CN 46 TJN"
   - "\U0001F1E8\U0001F1F3 CN 47 TJN"
-  - "\U0001F1E8\U0001F1E6 CA 48 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 49 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 48 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 49 TJN"
   - "\U0001F1E8\U0001F1F3 CN 50 TJN"
   - "\U0001F1E8\U0001F1F3 CN 51 TJN"
   - "\U0001F1E8\U0001F1F3 CN 52 TJN"
@@ -536,8 +536,8 @@ proxy-groups:
   - automatic
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 3 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 4 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 3 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 4 SSS"
   - "\U0001F1E8\U0001F1F3 CN 5 TJN"
   - "\U0001F1E8\U0001F1F3 CN 6 TJN"
   - "\U0001F1E8\U0001F1F3 CN 7 TJN"
@@ -569,9 +569,9 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 33 TJN"
   - "\U0001F1E8\U0001F1F3 CN 34 TJN"
   - "\U0001F1E8\U0001F1F3 CN 35 TJN"
-  - "\U0001F1FA\U0001F1F8 US 36 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 36 TJN"
   - "\U0001F1FA\U0001F1F8 US 37 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 38 TJN"
+  - "\U0001F1FA\U0001F1F8 US 38 TJN"
   - "\U0001F1E8\U0001F1F3 CN 39 TJN"
   - "\U0001F1E8\U0001F1F3 CN 40 TJN"
   - "\U0001F1E8\U0001F1F3 CN 41 TJN"
@@ -581,8 +581,8 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 45 TJN"
   - "\U0001F1E8\U0001F1F3 CN 46 TJN"
   - "\U0001F1E8\U0001F1F3 CN 47 TJN"
-  - "\U0001F1E8\U0001F1E6 CA 48 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 49 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 48 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 49 TJN"
   - "\U0001F1E8\U0001F1F3 CN 50 TJN"
   - "\U0001F1E8\U0001F1F3 CN 51 TJN"
   - "\U0001F1E8\U0001F1F3 CN 52 TJN"
