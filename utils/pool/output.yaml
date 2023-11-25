@@ -64,7 +64,43 @@ proxies:
   port: 123
   username: username
   password: password
-- name: "\U0001F1FA\U0001F1F8 US 10 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 10 SSR"
+  type: ssr
+  server: yd-05.paofunlink.com
+  port: 1080
+  password: bxsnucrgk6hfish
+  cipher: chacha20-ietf
+  obfs: plain
+  protocol: auth_aes128_sha1
+  obfs-param: fb7bc7521.microsoft.com
+  protocol-param: 7521:12HsOu
+- name: "\U0001F1FA\U0001F1F8 US 11 VMS"
+  type: vmess
+  server: us.lonan.can.1145114.me
+  port: 2052
+  cipher: auto
+  uuid: 6da3e574-52f1-4690-a53b-2847ce756456
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /lonan
+    headers:
+      host: vdsus.1145114.me
+- name: "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  type: ss
+  server: host-052.crazyspeed.xyz
+  port: 20062
+  password: ff21950f-e77d-4132-bbc1-d864b515251c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 13 SSS"
+  type: ss
+  server: host-041.crazyspeed.xyz
+  port: 16015
+  password: ff21950f-e77d-4132-bbc1-d864b515251c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1FA\U0001F1F8 US 14 VMS"
   type: vmess
   server: a.asghar-hamrah.store
   port: 2087
@@ -77,7 +113,7 @@ proxies:
   grpc-opts:
     grpc-service-name: /
     grpc-mode: gun
-- name: "\U0001F1E8\U0001F1F3 CN 11 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 15 SSR"
   type: ssr
   server: cm01.newcome.xyz
   port: 7709
@@ -87,7 +123,7 @@ proxies:
   protocol: auth_aes128_sha1
   obfs-param: TG@wangcai_1
   protocol-param: 84263:3gj7aB
-- name: "\U0001F1E8\U0001F1F3 CN 12 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 16 SSR"
   type: ssr
   server: cm01.newcome.xyz
   port: 7700
@@ -97,7 +133,7 @@ proxies:
   protocol: auth_aes128_sha1
   obfs-param: TG@wangcai_1
   protocol-param: 84263:3gj7aB
-- name: "\U0001F1FA\U0001F1F8 US 13 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 17 VMS"
   type: vmess
   server: mm2.shabijichang.com
   port: 80
@@ -111,13 +147,13 @@ proxies:
     path: /
     headers:
       host: mm2.shabijichang.com
-- name: "\U0001F1EB\U0001F1F7 FR 14 SSS"
+- name: "\U0001F1EB\U0001F1F7 FR 18 SSS"
   type: ss
   server: 54.36.174.181
   port: 7306
   password: FoOiGlkAA9yPEGP
   cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 15 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 19 SSR"
   type: ssr
   server: 120.240.88.111
   port: 7706
@@ -127,13 +163,13 @@ proxies:
   protocol: auth_aes128_sha1
   obfs-param: TG@wangcai_1
   protocol-param: 84263:3gj7aB
-- name: "\U0001F1EB\U0001F1F7 FR 16 SSS"
+- name: "\U0001F1EB\U0001F1F7 FR 20 SSS"
   type: ss
   server: 54.36.174.181
   port: 7307
   password: FoOiGlkAA9yPEGP
   cipher: aes-256-gcm
-- name: "\U0001F1E9\U0001F1EA DE 17 VMS"
+- name: "\U0001F1E9\U0001F1EA DE 21 VMS"
   type: vmess
   server: de-v2ray.freevmess.com
   port: 8442
@@ -143,7 +179,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: http
-- name: "\U0001F1FA\U0001F1F8 US 18 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 22 VMS"
   type: vmess
   server: 172.67.229.25
   port: 8880
@@ -157,13 +193,13 @@ proxies:
     path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
     headers:
       host: fr7.tehme100.fun
-- name: "\U0001F1EB\U0001F1F7 FR 19 SSS"
+- name: "\U0001F1EB\U0001F1F7 FR 23 SSS"
   type: ss
   server: 54.36.174.181
   port: 5004
   password: g5MeD6Ft3CWlJId
   cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 20 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 24 SSR"
   type: ssr
   server: 120.240.88.111
   port: 7709
@@ -173,7 +209,7 @@ proxies:
   protocol: auth_aes128_sha1
   obfs-param: TG@wangcai_1
   protocol-param: 84263:3gj7aB
-- name: "\U0001F1E8\U0001F1F3 CN 21 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 25 SSR"
   type: ssr
   server: cm01.newcome.xyz
   port: 7704
@@ -183,13 +219,13 @@ proxies:
   protocol: auth_aes128_sha1
   obfs-param: TG@wangcai_1
   protocol-param: 84263:3gj7aB
-- name: "\U0001F1EB\U0001F1F7 FR 22 SSS"
+- name: "\U0001F1EB\U0001F1F7 FR 26 SSS"
   type: ss
   server: 51.158.195.96
   port: 110
   password: asdKkaskJKfnsa
   cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F3 UN 23 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 27 VMS"
   type: vmess
   server: tttt.ssfree.ru
   port: 443
@@ -201,13 +237,13 @@ proxies:
   network: ws
   ws-opts:
     path: /search
-- name: "\U0001F1EB\U0001F1F7 FR 24 SSS"
+- name: "\U0001F1EB\U0001F1F7 FR 28 SSS"
   type: ss
   server: 54.36.174.181
   port: 8882
   password: kDWvXYZoTBcGkC4
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F3 UN 25 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 29 VMS"
   type: vmess
   server: ld2.shabijichang.com
   port: 80
@@ -221,13 +257,13 @@ proxies:
     path: /
     headers:
       host: ld2.shabijichang.com
-- name: "\U0001F1EB\U0001F1F7 FR 26 SSS"
+- name: "\U0001F1EB\U0001F1F7 FR 30 SSS"
   type: ss
   server: 54.36.174.181
   port: 4444
   password: pKEW8JPByTVTLtM
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F3 UN 27 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 31 VMS"
   type: vmess
   server: c1.wuxianliulianng.xyz
   port: 443
@@ -241,25 +277,25 @@ proxies:
     path: /apple
     headers:
       host: 111.golinkwuxian.top
-- name: "\U0001F1EB\U0001F1F7 FR 28 SSS"
+- name: "\U0001F1EB\U0001F1F7 FR 32 SSS"
   type: ss
   server: ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 8119
   password: cdBIDV42DCwnfIN
   cipher: aes-256-gcm
-- name: "\U0001F1EB\U0001F1F7 FR 29 SSS"
+- name: "\U0001F1EB\U0001F1F7 FR 33 SSS"
   type: ss
   server: 51.158.195.96
   port: 80
   password: asdKkaskJKfnsa
   cipher: aes-256-cfb
-- name: "\U0001F1EB\U0001F1F7 FR 30 SSS"
+- name: "\U0001F1EB\U0001F1F7 FR 34 SSS"
   type: ss
   server: 51.158.195.96
   port: 443
   password: asdKkaskJKfnsa
   cipher: aes-256-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 31 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 35 SSR"
   type: ssr
   server: cm01.newcome.xyz
   port: 7701
@@ -269,19 +305,19 @@ proxies:
   protocol: auth_aes128_sha1
   obfs-param: TG@wangcai_1
   protocol-param: 84263:3gj7aB
-- name: "\U0001F1EB\U0001F1F7 FR 32 SSS"
+- name: "\U0001F1EB\U0001F1F7 FR 36 SSS"
   type: ss
   server: 54.36.174.181
   port: 9102
   password: e4FCWrgpkji3QY
   cipher: aes-256-gcm
-- name: "\U0001F1EB\U0001F1F7 FR 33 SSS"
+- name: "\U0001F1EB\U0001F1F7 FR 37 SSS"
   type: ss
   server: 54.36.174.181
   port: 8090
   password: PCnnH6SQSnfoS27
   cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 34 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 38 VMS"
   type: vmess
   server: 112.29.94.23
   port: 43526
@@ -291,13 +327,13 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1EB\U0001F1F7 FR 35 SSS"
+- name: "\U0001F1EB\U0001F1F7 FR 39 SSS"
   type: ss
   server: 54.36.174.181
   port: 8881
   password: kDWvXYZoTBcGkC4
   cipher: aes-256-gcm
-- name: "\U0001F1FA\U0001F1F8 US 36 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 40 VMS"
   type: vmess
   server: 172.67.229.25
   port: 2086
@@ -311,13 +347,13 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
     headers:
       host: ca6.tehme100.fun
-- name: "\U0001F1EB\U0001F1F7 FR 37 SSS"
+- name: "\U0001F1EB\U0001F1F7 FR 41 SSS"
   type: ss
   server: www.outline.network.ak1941.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   port: 7001
   password: RexnBgU7EV5ADxG
   cipher: aes-256-gcm
-- name: "\U0001F1E8\U0001F1F3 CN 38 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 42 SSR"
   type: ssr
   server: 120.240.88.111
   port: 7707
@@ -327,18 +363,38 @@ proxies:
   protocol: auth_aes128_sha1
   obfs-param: TG@wangcai_1
   protocol-param: 84263:3gj7aB
-- name: "\U0001F1EB\U0001F1F7 FR 39 SSS"
+- name: "\U0001F1EB\U0001F1F7 FR 43 SSS"
   type: ss
   server: 54.36.174.181
   port: 7001
   password: RexnBgU7EV5ADxG
   cipher: aes-256-gcm
-- name: "\U0001F1EB\U0001F1F7 FR 40 SSS"
+- name: "\U0001F1EB\U0001F1F7 FR 44 SSS"
   type: ss
   server: 54.36.174.181
   port: 8008
   password: XKFKl2rULjIp74
   cipher: aes-256-gcm
+- name: "\U0001F1E8\U0001F1F3 CN 45 SSR"
+  type: ssr
+  server: 120.240.88.111
+  port: 7701
+  password: jFa4F1
+  cipher: chacha20-ietf
+  obfs: plain
+  protocol: auth_aes128_sha1
+  obfs-param: TG@wangcai_1
+  protocol-param: 84263:3gj7aB
+- name: "\U0001F1E8\U0001F1F3 CN 46 SSR"
+  type: ssr
+  server: 120.240.88.111
+  port: 7707
+  password: jFa4F1
+  cipher: chacha20-ietf
+  obfs: plain
+  protocol: auth_aes128_sha1
+  obfs-param: TG@wangcai_1
+  protocol-param: 84263:3gj7aB
 proxy-groups:
 - name: automatic
   type: url-test
@@ -352,37 +408,43 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 7 HTT"
   - "\U0001F1E8\U0001F1F3 CN 8 SK5"
   - "\U0001F1E6\U0001F1FA AU 9 SK5"
-  - "\U0001F1FA\U0001F1F8 US 10 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 11 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 12 SSR"
-  - "\U0001F1FA\U0001F1F8 US 13 VMS"
-  - "\U0001F1EB\U0001F1F7 FR 14 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 10 SSR"
+  - "\U0001F1FA\U0001F1F8 US 11 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 13 SSS"
+  - "\U0001F1FA\U0001F1F8 US 14 VMS"
   - "\U0001F1E8\U0001F1F3 CN 15 SSR"
-  - "\U0001F1EB\U0001F1F7 FR 16 SSS"
-  - "\U0001F1E9\U0001F1EA DE 17 VMS"
-  - "\U0001F1FA\U0001F1F8 US 18 VMS"
-  - "\U0001F1EB\U0001F1F7 FR 19 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 20 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 21 SSR"
-  - "\U0001F1EB\U0001F1F7 FR 22 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 23 VMS"
-  - "\U0001F1EB\U0001F1F7 FR 24 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 25 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 16 SSR"
+  - "\U0001F1FA\U0001F1F8 US 17 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 18 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 19 SSR"
+  - "\U0001F1EB\U0001F1F7 FR 20 SSS"
+  - "\U0001F1E9\U0001F1EA DE 21 VMS"
+  - "\U0001F1FA\U0001F1F8 US 22 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 23 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 24 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 25 SSR"
   - "\U0001F1EB\U0001F1F7 FR 26 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 27 VMS"
+  - "\U0001F1FA\U0001F1F8 US 27 VMS"
   - "\U0001F1EB\U0001F1F7 FR 28 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 29 SSS"
+  - "\U0001F1FA\U0001F1F8 US 29 VMS"
   - "\U0001F1EB\U0001F1F7 FR 30 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 31 SSR"
+  - "\U0001F1FA\U0001F1F3 UN 31 VMS"
   - "\U0001F1EB\U0001F1F7 FR 32 SSS"
   - "\U0001F1EB\U0001F1F7 FR 33 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 34 VMS"
-  - "\U0001F1EB\U0001F1F7 FR 35 SSS"
-  - "\U0001F1FA\U0001F1F8 US 36 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 34 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 35 SSR"
+  - "\U0001F1EB\U0001F1F7 FR 36 SSS"
   - "\U0001F1EB\U0001F1F7 FR 37 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 38 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 38 VMS"
   - "\U0001F1EB\U0001F1F7 FR 39 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 40 SSS"
+  - "\U0001F1FA\U0001F1F8 US 40 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 41 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 42 SSR"
+  - "\U0001F1EB\U0001F1F7 FR 43 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 44 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 45 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 46 SSR"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -398,36 +460,42 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 7 HTT"
   - "\U0001F1E8\U0001F1F3 CN 8 SK5"
   - "\U0001F1E6\U0001F1FA AU 9 SK5"
-  - "\U0001F1FA\U0001F1F8 US 10 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 11 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 12 SSR"
-  - "\U0001F1FA\U0001F1F8 US 13 VMS"
-  - "\U0001F1EB\U0001F1F7 FR 14 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 10 SSR"
+  - "\U0001F1FA\U0001F1F8 US 11 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 13 SSS"
+  - "\U0001F1FA\U0001F1F8 US 14 VMS"
   - "\U0001F1E8\U0001F1F3 CN 15 SSR"
-  - "\U0001F1EB\U0001F1F7 FR 16 SSS"
-  - "\U0001F1E9\U0001F1EA DE 17 VMS"
-  - "\U0001F1FA\U0001F1F8 US 18 VMS"
-  - "\U0001F1EB\U0001F1F7 FR 19 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 20 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 21 SSR"
-  - "\U0001F1EB\U0001F1F7 FR 22 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 23 VMS"
-  - "\U0001F1EB\U0001F1F7 FR 24 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 25 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 16 SSR"
+  - "\U0001F1FA\U0001F1F8 US 17 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 18 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 19 SSR"
+  - "\U0001F1EB\U0001F1F7 FR 20 SSS"
+  - "\U0001F1E9\U0001F1EA DE 21 VMS"
+  - "\U0001F1FA\U0001F1F8 US 22 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 23 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 24 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 25 SSR"
   - "\U0001F1EB\U0001F1F7 FR 26 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 27 VMS"
+  - "\U0001F1FA\U0001F1F8 US 27 VMS"
   - "\U0001F1EB\U0001F1F7 FR 28 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 29 SSS"
+  - "\U0001F1FA\U0001F1F8 US 29 VMS"
   - "\U0001F1EB\U0001F1F7 FR 30 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 31 SSR"
+  - "\U0001F1FA\U0001F1F3 UN 31 VMS"
   - "\U0001F1EB\U0001F1F7 FR 32 SSS"
   - "\U0001F1EB\U0001F1F7 FR 33 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 34 VMS"
-  - "\U0001F1EB\U0001F1F7 FR 35 SSS"
-  - "\U0001F1FA\U0001F1F8 US 36 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 34 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 35 SSR"
+  - "\U0001F1EB\U0001F1F7 FR 36 SSS"
   - "\U0001F1EB\U0001F1F7 FR 37 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 38 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 38 VMS"
   - "\U0001F1EB\U0001F1F7 FR 39 SSS"
-  - "\U0001F1EB\U0001F1F7 FR 40 SSS"
+  - "\U0001F1FA\U0001F1F8 US 40 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 41 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 42 SSR"
+  - "\U0001F1EB\U0001F1F7 FR 43 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 44 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 45 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 46 SSR"
 rules:
 - "MATCH,\U0001F310 Proxy"
