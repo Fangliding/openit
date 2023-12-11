@@ -15,12 +15,31 @@ proxies:
   sni: jgw2.gaox.ml
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F8 US 3 SSS"
+  type: ss
+  server: 35.87.39.181
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F8 US 4 TJN"
+  type: trojan
+  server: 89.116.180.179
+  port: 443
+  udp: true
+  password: d2698cf9-c47e-455c-8384-12e642cbba15
+  sni: p6us4.pqjc.buzz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pq/us4
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
+  - "\U0001F1FA\U0001F1F8 US 3 SSS"
+  - "\U0001F1FA\U0001F1F8 US 4 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -29,5 +48,7 @@ proxy-groups:
   - automatic
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
+  - "\U0001F1FA\U0001F1F8 US 3 SSS"
+  - "\U0001F1FA\U0001F1F8 US 4 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
