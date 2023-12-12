@@ -15,7 +15,17 @@ proxies:
   sni: jgw2.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 3 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 3 VMS"
+  type: vmess
+  server: 34.92.50.99
+  port: 7890
+  cipher: auto
+  uuid: 1d62f647-48de-469a-aef3-4b458394177d
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
   type: vmess
   server: 94.131.14.177
   port: 80
@@ -27,7 +37,7 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess
-- name: "\U0001F1E8\U0001F1E6 CA 4 TJN"
+- name: "\U0001F1E8\U0001F1E6 CA 5 TJN"
   type: trojan
   server: 172.105.5.158
   port: 443
@@ -36,7 +46,7 @@ proxies:
   sni: ddragon.leagueoflegends.com
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E9\U0001F1EA DE 5 VMS"
+- name: "\U0001F1E9\U0001F1EA DE 6 VMS"
   type: vmess
   server: 3.71.86.206
   port: 30498
@@ -46,7 +56,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: http
-- name: "\U0001F1FA\U0001F1F8 US 6 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 7 VMS"
   type: vmess
   server: ld2.shabijichang.com
   port: 80
@@ -60,7 +70,7 @@ proxies:
     path: /
     headers:
       host: ld2.shabijichang.com
-- name: "\U0001F1FA\U0001F1F3 UN 7 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 8 VMS"
   type: vmess
   server: www.wto.org
   port: 443
@@ -74,7 +84,7 @@ proxies:
     path: 539d1f3c-619c-4180-9603-d23e2b4db62f-vm
     headers:
       host: copies-bandwidth-harold-tops.trycloudflare.com
-- name: "\U0001F1FA\U0001F1F8 US 8 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 9 TJN"
   type: trojan
   server: 167.68.5.183
   port: 443
@@ -85,16 +95,6 @@ proxies:
   network: ws
   ws-opts:
     path: /pq/us3
-- name: "\U0001F1ED\U0001F1F0 HK 9 VMS"
-  type: vmess
-  server: 34.92.50.99
-  port: 7890
-  cipher: auto
-  uuid: 1d62f647-48de-469a-aef3-4b458394177d
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: tcp
 - name: "\U0001F1FA\U0001F1F8 US 10 SSS"
   type: ss
   server: 35.87.39.181
@@ -312,13 +312,13 @@ proxy-groups:
   proxies:
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
-  - "\U0001F1FA\U0001F1F8 US 3 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 4 TJN"
-  - "\U0001F1E9\U0001F1EA DE 5 VMS"
-  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 3 VMS"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 5 TJN"
+  - "\U0001F1E9\U0001F1EA DE 6 VMS"
   - "\U0001F1FA\U0001F1F3 UN 7 VMS"
-  - "\U0001F1FA\U0001F1F8 US 8 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 9 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 9 TJN"
   - "\U0001F1FA\U0001F1F8 US 10 SSS"
   - "\U0001F1FA\U0001F1F8 US 11 TJN"
   - "\U0001F1E8\U0001F1E6 CA 12 TJN"
@@ -353,13 +353,13 @@ proxy-groups:
   - automatic
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
-  - "\U0001F1FA\U0001F1F8 US 3 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 4 TJN"
-  - "\U0001F1E9\U0001F1EA DE 5 VMS"
-  - "\U0001F1FA\U0001F1F8 US 6 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 3 VMS"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 5 TJN"
+  - "\U0001F1E9\U0001F1EA DE 6 VMS"
   - "\U0001F1FA\U0001F1F3 UN 7 VMS"
-  - "\U0001F1FA\U0001F1F8 US 8 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 9 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 8 VMS"
+  - "\U0001F1FA\U0001F1F8 US 9 TJN"
   - "\U0001F1FA\U0001F1F8 US 10 SSS"
   - "\U0001F1FA\U0001F1F8 US 11 TJN"
   - "\U0001F1E8\U0001F1E6 CA 12 TJN"
