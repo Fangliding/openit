@@ -233,6 +233,51 @@ proxies:
   port: 443
   password: amazonskr05
   cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F3 UN 29 TJN"
+  type: trojan
+  server: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=@apt_mahdi
+  port: 8443
+  udp: true
+  password: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=
+  sni: ams-trojan-grpc.carfin.tech
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: '@apt_mahdi'
+- name: "\U0001F1EB\U0001F1F7 FR 30 SSS"
+  type: ss
+  server: 51.158.195.96
+  port: 443
+  password: asdKkaskJKfnsa
+  cipher: aes-256-cfb
+- name: "\U0001F1EB\U0001F1F7 FR 31 SSS"
+  type: ss
+  server: 51.158.195.96
+  port: 110
+  password: asdKkaskJKfnsa
+  cipher: aes-256-cfb
+- name: "\U0001F1EB\U0001F1F7 FR 32 SSS"
+  type: ss
+  server: 51.158.195.96
+  port: 80
+  password: asdKkaskJKfnsa
+  cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F8 US 33 SSS"
+  type: ss
+  server: 52.33.95.19
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F8 US 34 VMS"
+  type: vmess
+  server: 3.129.250.63
+  port: 56333
+  cipher: auto
+  uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: http
 proxy-groups:
 - name: automatic
   type: url-test
@@ -265,6 +310,12 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 26 SSS"
   - "\U0001F1FA\U0001F1F8 US 27 VMS"
   - "\U0001F1FA\U0001F1F8 US 28 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 29 TJN"
+  - "\U0001F1EB\U0001F1F7 FR 30 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 31 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 32 SSS"
+  - "\U0001F1FA\U0001F1F8 US 33 SSS"
+  - "\U0001F1FA\U0001F1F8 US 34 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -299,5 +350,11 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 26 SSS"
   - "\U0001F1FA\U0001F1F8 US 27 VMS"
   - "\U0001F1FA\U0001F1F8 US 28 SSS"
+  - "\U0001F1FA\U0001F1F3 UN 29 TJN"
+  - "\U0001F1EB\U0001F1F7 FR 30 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 31 SSS"
+  - "\U0001F1EB\U0001F1F7 FR 32 SSS"
+  - "\U0001F1FA\U0001F1F8 US 33 SSS"
+  - "\U0001F1FA\U0001F1F8 US 34 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
