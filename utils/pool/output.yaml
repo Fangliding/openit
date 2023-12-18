@@ -15,76 +15,39 @@ proxies:
   sni: jgw2.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F3 UN 3 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 3 TJN"
   type: trojan
-  server: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=@apt_mahdi
-  port: 8443
+  server: 89.116.180.158
+  port: 443
   udp: true
-  password: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=
-  sni: ams-trojan-grpc.carfin.tech
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: '@apt_mahdi'
-- name: "\U0001F1E8\U0001F1F3 CN 4 VMS"
-  type: vmess
-  server: cm1.awslcn.info
-  port: 25230
-  cipher: auto
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  alterId: 0
-  tls: false
+  password: 45a8d20d-9a78-4be4-a74a-ab3b9e84e34e
+  sni: 3us2.pqjc.buzz
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /pq/us2
     headers:
-      host: cm1.awslcn.info
-- name: "\U0001F1E8\U0001F1F3 CN 5 TJN"
+      host: 3us2.pqjc.buzz
+- name: "\U0001F1FA\U0001F1F8 US 4 TJN"
   type: trojan
-  server: other.kunlun-ppg.com
-  port: 10850
-  udp: true
-  password: b6825e95-39b1-4e99-98c2-7b344f0f698a
-  sni: alibaba-node.cn
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 6 SSS"
-  type: ss
-  server: 52.33.95.19
+  server: 89.116.180.179
   port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F8 US 7 SSS"
+  udp: true
+  password: 45a8d20d-9a78-4be4-a74a-ab3b9e84e34e
+  sni: p6us4.pqjc.buzz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pq/us4
+    headers:
+      host: p6us4.pqjc.buzz
+- name: "\U0001F1FA\U0001F1F8 US 5 SSS"
   type: ss
   server: 35.90.10.174
   port: 443
   password: amazonskr05
   cipher: aes-256-cfb
-- name: "\U0001F1E8\U0001F1F3 CN 8 VMS"
-  type: vmess
-  server: cu.awslcn.info
-  port: 25284
-  cipher: auto
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      host: cu.awslcn.info
-- name: "\U0001F1E8\U0001F1F3 CN 9 TJN"
-  type: trojan
-  server: other.kunlun-ppg.com
-  port: 10845
-  udp: true
-  password: b6825e95-39b1-4e99-98c2-7b344f0f698a
-  sni: alibaba-node.cn
-  skip-cert-verify: true
-  network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 10 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 6 VMS"
   type: vmess
   server: us2.awslcn.info
   port: 25257
@@ -98,7 +61,81 @@ proxies:
     path: /
     headers:
       host: us2.awslcn.info
-- name: "\U0001F1E8\U0001F1E6 CA 11 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 7 TJN"
+  type: trojan
+  server: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=@apt_mahdi
+  port: 8443
+  udp: true
+  password: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=
+  sni: ams-trojan-grpc.carfin.tech
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: '@apt_mahdi'
+- name: "\U0001F1FA\U0001F1F3 UN 8 TJN"
+  type: trojan
+  server: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=@apt_mahdi
+  port: 8443
+  udp: true
+  password: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=
+  sni: ams-trojan-grpc.carfin.tech
+  skip-cert-verify: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: '@apt_mahdi'
+- name: "\U0001F1E8\U0001F1F3 CN 9 VMS"
+  type: vmess
+  server: cm1.awslcn.info
+  port: 25230
+  cipher: auto
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: cm1.awslcn.info
+- name: "\U0001F1E8\U0001F1F3 CN 10 TJN"
+  type: trojan
+  server: other.kunlun-ppg.com
+  port: 10850
+  udp: true
+  password: b6825e95-39b1-4e99-98c2-7b344f0f698a
+  sni: alibaba-node.cn
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1FA\U0001F1F8 US 11 SSS"
+  type: ss
+  server: 52.33.95.19
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: "\U0001F1E8\U0001F1F3 CN 12 VMS"
+  type: vmess
+  server: cu.awslcn.info
+  port: 25284
+  cipher: auto
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: cu.awslcn.info
+- name: "\U0001F1E8\U0001F1F3 CN 13 TJN"
+  type: trojan
+  server: other.kunlun-ppg.com
+  port: 10845
+  udp: true
+  password: b6825e95-39b1-4e99-98c2-7b344f0f698a
+  sni: alibaba-node.cn
+  skip-cert-verify: true
+  network: tcp
+- name: "\U0001F1E8\U0001F1E6 CA 14 VMS"
   type: vmess
   server: 193.203.203.88
   port: 8443
@@ -108,7 +145,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 12 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 15 VMS"
   type: vmess
   server: 162.159.192.244
   port: 443
@@ -122,7 +159,7 @@ proxies:
     path: /673ba378-840f-4928-81f2-203148d07350
     headers:
       host: cowochtmtrkers.turbo021.link
-- name: "\U0001F1FA\U0001F1F8 US 13 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 16 VMS"
   type: vmess
   server: us3.36routes.online
   port: 80
@@ -136,7 +173,7 @@ proxies:
     path: /
     headers:
       host: us3.36routes.online
-- name: "\U0001F1FA\U0001F1F8 US 14 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 17 TJN"
   type: trojan
   server: us01.trojanyyds.xyz
   port: 443
@@ -145,7 +182,7 @@ proxies:
   sni: us01.trojanyyds.xyz
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1E8\U0001F1F3 CN 15 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 18 TJN"
   type: trojan
   server: other.kunlun-ppg.com
   port: 10848
@@ -154,43 +191,6 @@ proxies:
   sni: alibaba-node.cn
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 16 TJN"
-  type: trojan
-  server: 89.116.180.158
-  port: 443
-  udp: true
-  password: 45a8d20d-9a78-4be4-a74a-ab3b9e84e34e
-  sni: 3us2.pqjc.buzz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pq/us2
-    headers:
-      host: 3us2.pqjc.buzz
-- name: "\U0001F1FA\U0001F1F8 US 17 TJN"
-  type: trojan
-  server: 89.116.180.179
-  port: 443
-  udp: true
-  password: 45a8d20d-9a78-4be4-a74a-ab3b9e84e34e
-  sni: p6us4.pqjc.buzz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pq/us4
-    headers:
-      host: p6us4.pqjc.buzz
-- name: "\U0001F1FA\U0001F1F3 UN 18 TJN"
-  type: trojan
-  server: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=@apt_mahdi
-  port: 8443
-  udp: true
-  password: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=
-  sni: ams-trojan-grpc.carfin.tech
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: '@apt_mahdi'
 - name: "\U0001F1E8\U0001F1E6 CA 19 SSS"
   type: ss
   server: 198.57.27.218
@@ -246,22 +246,22 @@ proxy-groups:
   proxies:
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 3 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 4 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 5 TJN"
-  - "\U0001F1FA\U0001F1F8 US 6 SSS"
-  - "\U0001F1FA\U0001F1F8 US 7 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 8 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 9 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 10 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 11 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 12 VMS"
-  - "\U0001F1FA\U0001F1F8 US 13 VMS"
-  - "\U0001F1FA\U0001F1F8 US 14 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 15 TJN"
-  - "\U0001F1FA\U0001F1F8 US 16 TJN"
-  - "\U0001F1FA\U0001F1F8 US 17 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 18 TJN"
+  - "\U0001F1FA\U0001F1F8 US 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 TJN"
+  - "\U0001F1FA\U0001F1F8 US 5 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 6 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 7 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 8 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 9 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 10 TJN"
+  - "\U0001F1FA\U0001F1F8 US 11 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 12 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 13 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 14 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 15 VMS"
+  - "\U0001F1FA\U0001F1F8 US 16 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 17 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 18 TJN"
   - "\U0001F1E8\U0001F1E6 CA 19 SSS"
   - "\U0001F1FA\U0001F1F8 US 20 VMS"
   - "\U0001F1FA\U0001F1F8 US 21 VMS"
@@ -277,22 +277,22 @@ proxy-groups:
   - automatic
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 3 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 4 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 5 TJN"
-  - "\U0001F1FA\U0001F1F8 US 6 SSS"
-  - "\U0001F1FA\U0001F1F8 US 7 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 8 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 9 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 10 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 11 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 12 VMS"
-  - "\U0001F1FA\U0001F1F8 US 13 VMS"
-  - "\U0001F1FA\U0001F1F8 US 14 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 15 TJN"
-  - "\U0001F1FA\U0001F1F8 US 16 TJN"
-  - "\U0001F1FA\U0001F1F8 US 17 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 18 TJN"
+  - "\U0001F1FA\U0001F1F8 US 3 TJN"
+  - "\U0001F1FA\U0001F1F8 US 4 TJN"
+  - "\U0001F1FA\U0001F1F8 US 5 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 6 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 7 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 8 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 9 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 10 TJN"
+  - "\U0001F1FA\U0001F1F8 US 11 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 12 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 13 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 14 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 15 VMS"
+  - "\U0001F1FA\U0001F1F8 US 16 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 17 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 18 TJN"
   - "\U0001F1E8\U0001F1E6 CA 19 SSS"
   - "\U0001F1FA\U0001F1F8 US 20 VMS"
   - "\U0001F1FA\U0001F1F8 US 21 VMS"
