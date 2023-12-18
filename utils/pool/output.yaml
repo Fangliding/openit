@@ -15,12 +15,57 @@ proxies:
   sni: jgw2.gaox.ml
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1FA\U0001F1F3 UN 3 VMS"
+  type: vmess
+  server: 162.159.192.244
+  port: 443
+  cipher: auto
+  uuid: 673ba378-840f-4928-81f2-203148d07350
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /673ba378-840f-4928-81f2-203148d07350
+    headers:
+      host: cowochtmtrkers.turbo021.link
+- name: "\U0001F1EC\U0001F1E7 GB 4 VMS"
+  type: vmess
+  server: 172.99.190.109
+  port: 443
+  cipher: auto
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+- name: "\U0001F1E8\U0001F1F3 CN 5 SSR"
+  type: ssr
+  server: cm01.newcome.xyz
+  port: 7706
+  password: jFa4F1
+  cipher: chacha20-ietf
+  obfs: plain
+  protocol: auth_aes128_sha1
+  obfs-param: 511df45641.microsoft.com
+  protocol-param: 45641:1119_jE165t
+  group: "Update-\u4E8C\u7237"
+- name: "\U0001F1FA\U0001F1F8 US 6 SSS"
+  type: ss
+  server: 35.90.10.174
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
+  - "\U0001F1EC\U0001F1E7 GB 4 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 5 SSR"
+  - "\U0001F1FA\U0001F1F8 US 6 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -29,5 +74,9 @@ proxy-groups:
   - automatic
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 3 VMS"
+  - "\U0001F1EC\U0001F1E7 GB 4 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 5 SSR"
+  - "\U0001F1FA\U0001F1F8 US 6 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
