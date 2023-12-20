@@ -389,7 +389,30 @@ proxies:
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: "\U0001F1E8\U0001F1F3 CN 39 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 39 SSR"
+  type: ssr
+  server: cm01.newcome.xyz
+  port: 7706
+  password: jFa4F1
+  cipher: chacha20-ietf
+  obfs: plain
+  protocol: auth_aes128_sha1
+  obfs-param: 511df45641.microsoft.com
+  protocol-param: 45641:1119_jE165t
+  group: "Update-\u4E8C\u7237"
+- name: "\U0001F1F3\U0001F1F1 NL 40 VMS"
+  type: vmess
+  server: 46.182.107.15
+  port: 30000
+  cipher: auto
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1702215223320
+- name: "\U0001F1E8\U0001F1F3 CN 41 VMS"
   type: vmess
   server: us2.awslcn.info
   port: 25257
@@ -403,75 +426,7 @@ proxies:
     path: /
     headers:
       host: us2.awslcn.info
-- name: "\U0001F1EC\U0001F1E7 GB 40 TJN"
-  type: trojan
-  server: 35.178.236.184
-  port: 22222
-  udp: true
-  password: telegram-id-directvpn
-  sni: trj.rollingnext.co.uk
-  skip-cert-verify: false
-  network: tcp
-- name: "\U0001F1EC\U0001F1E7 GB 41 TJN"
-  type: trojan
-  server: 3.9.110.248
-  port: 22222
-  udp: true
-  password: telegram-id-privatevpns
-  sni: trj.rollingnext.co.uk
-  skip-cert-verify: false
-  network: tcp
-- name: "\U0001F1FA\U0001F1F3 UN 42 VMS"
-  type: vmess
-  server: 104.21.91.52
-  port: 80
-  cipher: auto
-  uuid: cf9277a9-7661-4b06-865d-b7c239deb26b
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      host: ee2.xv2ray.net
-- name: "\U0001F1EE\U0001F1EA IE 43 TJN"
-  type: trojan
-  server: 34.248.5.222
-  port: 22222
-  udp: true
-  password: telegram-id-privatevpns
-  sni: trj.rollingnext.co.uk
-  skip-cert-verify: false
-  network: tcp
-- name: "\U0001F1F0\U0001F1F7 KR 44 VMS"
-  type: vmess
-  server: hexsen.com
-  port: 443
-  cipher: auto
-  uuid: de04add9-5c68-8bab-950c-08cd5320df18
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /argo-vmess?ed=2048
-    headers:
-      host: us.king361.cf
-- name: "\U0001F1FA\U0001F1F3 UN 45 TJN"
-  type: trojan
-  server: ZjzcW3LXeJ@cf.network383.online:2096?type=ws&sni=amsb.network383.online&allowInsecure=1&path=/@apt_mahdi&host=amsb.network383.online
-  port: 2096
-  udp: true
-  password: ZjzcW3LXeJ@cf.network383.online:2096?type=ws&sni=amsb.network383.online&allowInsecure=1&path=/
-  sni: amsb.network383.online
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /@apt_mahdi
-    headers:
-      host: amsb.network383.online
-- name: "\U0001F1FA\U0001F1F8 US 46 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 42 VMS"
   type: vmess
   server: 146.235.227.242
   port: 56052
@@ -485,7 +440,103 @@ proxies:
     path: /?ed=2048
     headers:
       host: microsoft.com
-- name: "\U0001F1E8\U0001F1F3 CN 47 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 43 VMS"
+  type: vmess
+  server: us2.awslcn.info
+  port: 25257
+  cipher: auto
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: us2.awslcn.info
+- name: "\U0001F1EC\U0001F1E7 GB 44 TJN"
+  type: trojan
+  server: 35.178.236.184
+  port: 22222
+  udp: true
+  password: telegram-id-directvpn
+  sni: trj.rollingnext.co.uk
+  skip-cert-verify: false
+  network: tcp
+- name: "\U0001F1EC\U0001F1E7 GB 45 TJN"
+  type: trojan
+  server: 3.9.110.248
+  port: 22222
+  udp: true
+  password: telegram-id-privatevpns
+  sni: trj.rollingnext.co.uk
+  skip-cert-verify: false
+  network: tcp
+- name: "\U0001F1FA\U0001F1F3 UN 46 VMS"
+  type: vmess
+  server: 104.21.91.52
+  port: 80
+  cipher: auto
+  uuid: cf9277a9-7661-4b06-865d-b7c239deb26b
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      host: ee2.xv2ray.net
+- name: "\U0001F1EE\U0001F1EA IE 47 TJN"
+  type: trojan
+  server: 34.248.5.222
+  port: 22222
+  udp: true
+  password: telegram-id-privatevpns
+  sni: trj.rollingnext.co.uk
+  skip-cert-verify: false
+  network: tcp
+- name: "\U0001F1F0\U0001F1F7 KR 48 VMS"
+  type: vmess
+  server: hexsen.com
+  port: 443
+  cipher: auto
+  uuid: de04add9-5c68-8bab-950c-08cd5320df18
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /argo-vmess?ed=2048
+    headers:
+      host: us.king361.cf
+- name: "\U0001F1FA\U0001F1F3 UN 49 TJN"
+  type: trojan
+  server: ZjzcW3LXeJ@cf.network383.online:2096?type=ws&sni=amsb.network383.online&allowInsecure=1&path=/@apt_mahdi&host=amsb.network383.online
+  port: 2096
+  udp: true
+  password: ZjzcW3LXeJ@cf.network383.online:2096?type=ws&sni=amsb.network383.online&allowInsecure=1&path=/
+  sni: amsb.network383.online
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /@apt_mahdi
+    headers:
+      host: amsb.network383.online
+- name: "\U0001F1FA\U0001F1F8 US 50 VMS"
+  type: vmess
+  server: 146.235.227.242
+  port: 56052
+  cipher: auto
+  uuid: 5da8114c-0bc6-4416-aa3e-106bcc452161
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      host: microsoft.com
+- name: "\U0001F1E8\U0001F1F3 CN 51 SSR"
   type: ssr
   server: cm01.newcome.xyz
   port: 7706
@@ -496,7 +547,7 @@ proxies:
   obfs-param: 511df45641.microsoft.com
   protocol-param: 45641:1119_jE165t
   group: "Update-\u4E8C\u7237"
-- name: "\U0001F1F3\U0001F1F1 NL 48 VMS"
+- name: "\U0001F1F3\U0001F1F1 NL 52 VMS"
   type: vmess
   server: 46.182.107.15
   port: 30000
@@ -508,7 +559,7 @@ proxies:
   network: ws
   ws-opts:
     path: /path/1702215223320
-- name: "\U0001F1FA\U0001F1F3 UN 49 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 53 VMS"
   type: vmess
   server: au-01.jikuai.xyz
   port: 2082
@@ -522,7 +573,7 @@ proxies:
     path: /
     headers:
       host: au-01.jikuai.xyz
-- name: "\U0001F1E8\U0001F1F3 CN 50 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 54 VMS"
   type: vmess
   server: us1.awslcn.info
   port: 25239
@@ -536,7 +587,7 @@ proxies:
     path: /
     headers:
       host: us1.awslcn.info
-- name: "\U0001F1E8\U0001F1F3 CN 51 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 55 VMS"
   type: vmess
   server: cu.awslcn.info
   port: 25284
@@ -550,7 +601,7 @@ proxies:
     path: /
     headers:
       host: cu.awslcn.info
-- name: "\U0001F1EC\U0001F1E7 GB 52 TJN"
+- name: "\U0001F1EC\U0001F1E7 GB 56 TJN"
   type: trojan
   server: 35.178.236.184
   port: 22222
@@ -559,12 +610,26 @@ proxies:
   sni: trj.rollingnext.co.uk
   skip-cert-verify: false
   network: tcp
-- name: "\U0001F1FA\U0001F1F8 US 53 SSS"
+- name: "\U0001F1FA\U0001F1F8 US 57 SSS"
   type: ss
   server: 54.70.3.6
   port: 443
   password: amazonskr05
   cipher: aes-256-cfb
+- name: "\U0001F1FA\U0001F1F8 US 58 VMS"
+  type: vmess
+  server: glweidf.cfd
+  port: 443
+  cipher: auto
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkws
+    headers:
+      host: glweidf.cfd
 proxy-groups:
 - name: automatic
   type: url-test
@@ -607,21 +672,26 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 36 VMS"
   - "\U0001F1FA\U0001F1F8 US 37 SSS"
   - "\U0001F1FA\U0001F1F8 US 38 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 39 VMS"
-  - "\U0001F1EC\U0001F1E7 GB 40 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 41 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 42 VMS"
-  - "\U0001F1EE\U0001F1EA IE 43 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 44 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 45 TJN"
-  - "\U0001F1FA\U0001F1F8 US 46 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 47 SSR"
-  - "\U0001F1F3\U0001F1F1 NL 48 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 49 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 50 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 51 VMS"
-  - "\U0001F1EC\U0001F1E7 GB 52 TJN"
-  - "\U0001F1FA\U0001F1F8 US 53 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 39 SSR"
+  - "\U0001F1F3\U0001F1F1 NL 40 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 41 VMS"
+  - "\U0001F1FA\U0001F1F8 US 42 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 43 VMS"
+  - "\U0001F1EC\U0001F1E7 GB 44 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 45 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 46 VMS"
+  - "\U0001F1EE\U0001F1EA IE 47 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 48 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 49 TJN"
+  - "\U0001F1FA\U0001F1F8 US 50 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 51 SSR"
+  - "\U0001F1F3\U0001F1F1 NL 52 VMS"
+  - "\U0001F1FA\U0001F1F8 US 53 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 54 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 55 VMS"
+  - "\U0001F1EC\U0001F1E7 GB 56 TJN"
+  - "\U0001F1FA\U0001F1F8 US 57 SSS"
+  - "\U0001F1FA\U0001F1F8 US 58 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -666,20 +736,25 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 36 VMS"
   - "\U0001F1FA\U0001F1F8 US 37 SSS"
   - "\U0001F1FA\U0001F1F8 US 38 SSS"
-  - "\U0001F1E8\U0001F1F3 CN 39 VMS"
-  - "\U0001F1EC\U0001F1E7 GB 40 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 41 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 42 VMS"
-  - "\U0001F1EE\U0001F1EA IE 43 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 44 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 45 TJN"
-  - "\U0001F1FA\U0001F1F8 US 46 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 47 SSR"
-  - "\U0001F1F3\U0001F1F1 NL 48 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 49 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 50 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 51 VMS"
-  - "\U0001F1EC\U0001F1E7 GB 52 TJN"
-  - "\U0001F1FA\U0001F1F8 US 53 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 39 SSR"
+  - "\U0001F1F3\U0001F1F1 NL 40 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 41 VMS"
+  - "\U0001F1FA\U0001F1F8 US 42 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 43 VMS"
+  - "\U0001F1EC\U0001F1E7 GB 44 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 45 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 46 VMS"
+  - "\U0001F1EE\U0001F1EA IE 47 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 48 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 49 TJN"
+  - "\U0001F1FA\U0001F1F8 US 50 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 51 SSR"
+  - "\U0001F1F3\U0001F1F1 NL 52 VMS"
+  - "\U0001F1FA\U0001F1F8 US 53 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 54 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 55 VMS"
+  - "\U0001F1EC\U0001F1E7 GB 56 TJN"
+  - "\U0001F1FA\U0001F1F8 US 57 SSS"
+  - "\U0001F1FA\U0001F1F8 US 58 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
