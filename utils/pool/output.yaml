@@ -15,12 +15,28 @@ proxies:
   sni: jgw2.gaox.ml
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 3 VMS"
+  type: vmess
+  server: hk1.awslcn.info
+  port: 25244
+  cipher: auto
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      host: hk1.awslcn.info
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 3 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -29,5 +45,6 @@ proxy-groups:
   - automatic
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 3 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
