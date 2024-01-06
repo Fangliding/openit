@@ -24,6 +24,16 @@ proxies:
 - name: "\U0001F1ED\U0001F1F0 HK 4 VMS"
   type: vmess
   server: 34.92.50.99
+  port: 31535
+  cipher: auto
+  uuid: f23d62d4-f8da-4347-8cee-762804ecf677
+  alterId: 0
+  tls: false
+  skip-cert-verify: true
+  network: kcp
+- name: "\U0001F1ED\U0001F1F0 HK 5 VMS"
+  type: vmess
+  server: 34.92.50.99
   port: 26389
   cipher: auto
   uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
@@ -31,7 +41,7 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1ED\U0001F1F0 HK 5 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 6 VMS"
   type: vmess
   server: 34.92.50.99
   port: 64563
@@ -41,16 +51,6 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: tcp
-- name: "\U0001F1ED\U0001F1F0 HK 6 VMS"
-  type: vmess
-  server: 34.92.50.99
-  port: 31535
-  cipher: auto
-  uuid: f23d62d4-f8da-4347-8cee-762804ecf677
-  alterId: 0
-  tls: false
-  skip-cert-verify: true
-  network: kcp
 - name: "\U0001F1FA\U0001F1F3 UN 7 VMS"
   type: vmess
   server: 162.159.142.202
@@ -261,7 +261,7 @@ proxies:
   port: 989
   password: f8f7aCzcPKbsF8p3
   cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F3 UN 24 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 24 VMS"
   type: vmess
   server: a8.bcbot.in
   port: 8880
@@ -406,7 +406,7 @@ proxies:
   port: 989
   password: f8f7aCzcPKbsF8p3
   cipher: aes-256-cfb
-- name: "\U0001F1FA\U0001F1F8 US 37 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 37 VMS"
   type: vmess
   server: a6.bcbot.in
   port: 8880
@@ -447,7 +447,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 21 VMS"
   - "\U0001F1FA\U0001F1F3 UN 22 VMS"
   - "\U0001F1EA\U0001F1F8 ES 23 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 24 VMS"
+  - "\U0001F1FA\U0001F1F8 US 24 VMS"
   - "\U0001F1E7\U0001F1E6 BA 25 SSS"
   - "\U0001F1FA\U0001F1F8 US 26 VMS"
   - "\U0001F1F8\U0001F1E6 SA 27 SSS"
@@ -460,7 +460,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 34 VMS"
   - "\U0001F1F8\U0001F1EA SE 35 SSS"
   - "\U0001F1EC\U0001F1E7 GB 36 SSS"
-  - "\U0001F1FA\U0001F1F8 US 37 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 37 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -490,7 +490,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F3 UN 21 VMS"
   - "\U0001F1FA\U0001F1F3 UN 22 VMS"
   - "\U0001F1EA\U0001F1F8 ES 23 SSS"
-  - "\U0001F1FA\U0001F1F3 UN 24 VMS"
+  - "\U0001F1FA\U0001F1F8 US 24 VMS"
   - "\U0001F1E7\U0001F1E6 BA 25 SSS"
   - "\U0001F1FA\U0001F1F8 US 26 VMS"
   - "\U0001F1F8\U0001F1E6 SA 27 SSS"
@@ -503,6 +503,6 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 34 VMS"
   - "\U0001F1F8\U0001F1EA SE 35 SSS"
   - "\U0001F1EC\U0001F1E7 GB 36 SSS"
-  - "\U0001F1FA\U0001F1F8 US 37 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 37 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
