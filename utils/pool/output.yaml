@@ -66,6 +66,66 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   skip-cert-verify: true
   network: tcp
+- name: "\U0001F1E8\U0001F1F3 CN 9 SSS"
+  type: ss
+  server: tw01.network-cdn-gw.cc
+  port: 46601
+  password: 7184dbdc-14b2-49a8-becd-ecde0be9047c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 10 SSS"
+  type: ss
+  server: tw02.network-cdn-gw.cc
+  port: 46602
+  password: 7184dbdc-14b2-49a8-becd-ecde0be9047c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  type: ss
+  server: tw03.network-cdn-gw.cc
+  port: 46603
+  password: 7184dbdc-14b2-49a8-becd-ecde0be9047c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  type: ss
+  server: tw04.network-cdn-gw.cc
+  port: 46604
+  password: 7184dbdc-14b2-49a8-becd-ecde0be9047c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 13 SSS"
+  type: ss
+  server: tw05.network-cdn-gw.cc
+  port: 46605
+  password: 7184dbdc-14b2-49a8-becd-ecde0be9047c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 14 SSS"
+  type: ss
+  server: sgp01.network-cdn-gw.cc
+  port: 45506
+  password: 7184dbdc-14b2-49a8-becd-ecde0be9047c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 15 SSS"
+  type: ss
+  server: sgp02.network-cdn-gw.cc
+  port: 45507
+  password: 7184dbdc-14b2-49a8-becd-ecde0be9047c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 16 SSS"
+  type: ss
+  server: sgp03.network-cdn-gw.cc
+  port: 45508
+  password: 7184dbdc-14b2-49a8-becd-ecde0be9047c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 17 SSS"
+  type: ss
+  server: sgp04.network-cdn-gw.cc
+  port: 45509
+  password: 7184dbdc-14b2-49a8-becd-ecde0be9047c
+  cipher: chacha20-ietf-poly1305
+- name: "\U0001F1E8\U0001F1F3 CN 18 SSS"
+  type: ss
+  server: sgp05.network-cdn-gw.cc
+  port: 45510
+  password: 7184dbdc-14b2-49a8-becd-ecde0be9047c
+  cipher: chacha20-ietf-poly1305
 proxy-groups:
 - name: automatic
   type: url-test
@@ -78,6 +138,16 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 6 TJN"
   - "\U0001F1E8\U0001F1F3 CN 7 SSS"
   - "\U0001F1E8\U0001F1F3 CN 8 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 9 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 10 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 13 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 14 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 15 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 16 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 17 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 18 SSS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -92,5 +162,15 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 6 TJN"
   - "\U0001F1E8\U0001F1F3 CN 7 SSS"
   - "\U0001F1E8\U0001F1F3 CN 8 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 9 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 10 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 11 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 12 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 13 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 14 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 15 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 16 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 17 SSS"
+  - "\U0001F1E8\U0001F1F3 CN 18 SSS"
 rules:
 - "MATCH,\U0001F310 Proxy"
