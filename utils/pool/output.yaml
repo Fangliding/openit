@@ -15,12 +15,49 @@ proxies:
   sni: jgw2.gaox.ml
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1E8\U0001F1E6 CA 3 VMS"
+  type: vmess
+  server: sg3.abcvpn.icu
+  port: 443
+  cipher: auto
+  uuid: ab551289-c2a9-4a07-8384-70fd3aec6696
+  alterId: 0
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /mnqpvws
+    headers:
+      host: sg3.abcvpn.icu
+- name: "\U0001F1E8\U0001F1E6 CA 4 TJN"
+  type: trojan
+  server: sg3.abcvpn.icu
+  port: 443
+  udp: true
+  password: ab551289-c2a9-4a07-8384-70fd3aec6696
+  sni: sg3.abcvpn.icu
+  skip-cert-verify: false
+  network: tcp
+- name: "\U0001F1E8\U0001F1E6 CA 5 TJN"
+  type: trojan
+  server: sg3.abcvpn.icu
+  port: 443
+  udp: true
+  password: ab551289-c2a9-4a07-8384-70fd3aec6696
+  sni: sg3.abcvpn.icu
+  skip-cert-verify: false
+  network: grpc
+  grpc-opts:
+    grpc-service-name: mnqptrojangrpc
 proxy-groups:
 - name: automatic
   type: url-test
   proxies:
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 3 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 4 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 5 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -29,5 +66,8 @@ proxy-groups:
   - automatic
   - "\U0001F1F2\U0001F1F4 MO 1 TJN"
   - "\U0001F1F2\U0001F1F4 MO 2 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 3 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 4 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 5 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
